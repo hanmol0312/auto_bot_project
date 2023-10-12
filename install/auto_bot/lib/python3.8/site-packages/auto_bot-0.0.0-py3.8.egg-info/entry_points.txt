@@ -1,0 +1,10 @@
+[console_scripts]
+bot_localization = auto_bot.auto_bot_localization:main
+bot_map=auto_bot.bot_mapping:mainbot_path_planning = auto_bot.bot_pathplanning:main
+configuration = auto_bot.config:main
+driving_auto_bot = auto_bot.driver_node:main
+goal_auto_bot = auto_bot.reach_goal:main
+maze_solving = auto_bot.maze_solving:main
+utilities = auto_bot.utilities:main
+vid_saving = auto_bot.video_saver_node:main
+

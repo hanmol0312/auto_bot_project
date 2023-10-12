@@ -1,0 +1,49 @@
+[0.876s] Invoking command in '/home/anmol/project_ws/src/auto_bot': PYTHONPATH=/home/anmol/project_ws/build/auto_bot/prefix_override:/home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/auto_bot build --build-base /home/anmol/project_ws/build/auto_bot/build install --record /home/anmol/project_ws/build/auto_bot/install.log --install-scripts $base/lib/auto_bot --single-version-externally-managed
+[0.998s] /home/anmol/.local/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.998s] !!
+[0.998s] 
+[0.998s]         ********************************************************************************
+[0.998s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.998s]         versions. Please use the underscore name 'script_dir' instead.
+[0.999s] 
+[0.999s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[0.999s]         or your builds will no longer be supported.
+[0.999s] 
+[0.999s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.999s]         ********************************************************************************
+[0.999s] 
+[0.999s] !!
+[0.999s]   opt = self.warn_dash_deprecation(opt, section)
+[1.073s] running egg_info
+[1.084s] writing ../../build/auto_bot/auto_bot.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../../build/auto_bot/auto_bot.egg-info/dependency_links.txt
+[1.085s] writing requirements to ../../build/auto_bot/auto_bot.egg-info/requires.txt
+[1.085s] writing top-level names to ../../build/auto_bot/auto_bot.egg-info/top_level.txt
+[1.199s] reading manifest file '../../build/auto_bot/auto_bot.egg-info/SOURCES.txt'
+[1.200s] writing manifest file '../../build/auto_bot/auto_bot.egg-info/SOURCES.txt'
+[1.200s] running build
+[1.200s] running build_py
+[1.200s] running install
+[1.201s] /home/anmol/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.201s] !!
+[1.201s] 
+[1.201s]         ********************************************************************************
+[1.201s]         Please avoid running ``setup.py`` directly.
+[1.201s]         Instead, use pypa/build, pypa/installer or other
+[1.201s]         standards-based tools.
+[1.201s] 
+[1.201s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.202s]         ********************************************************************************
+[1.202s] 
+[1.202s] !!
+[1.202s]   self.initialize_options()
+[1.210s] running install_lib
+[1.222s] running install_data
+[1.234s] copying urdf/auto_bot.urdf -> /home/anmol/project_ws/install/auto_bot/share/auto_bot/urdf
+[1.234s] copying launch/gazebo.launch.py -> /home/anmol/project_ws/install/auto_bot/share/auto_bot/launch
+[1.234s] running install_egg_info
+[1.246s] removing '/home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot-0.0.0-py3.8.egg-info' (and everything under it)
+[1.247s] Copying ../../build/auto_bot/auto_bot.egg-info to /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot-0.0.0-py3.8.egg-info
+[1.247s] running install_scripts
+[1.297s] writing list of installed files to '/home/anmol/project_ws/build/auto_bot/install.log'
+[1.345s] Invoked command in '/home/anmol/project_ws/src/auto_bot' returned '0': PYTHONPATH=/home/anmol/project_ws/build/auto_bot/prefix_override:/home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/auto_bot build --build-base /home/anmol/project_ws/build/auto_bot/build install --record /home/anmol/project_ws/build/auto_bot/install.log --install-scripts $base/lib/auto_bot --single-version-externally-managed

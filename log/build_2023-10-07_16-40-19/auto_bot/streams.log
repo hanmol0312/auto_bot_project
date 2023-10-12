@@ -1,0 +1,31 @@
+[0.733s] Invoking command in '/home/anmol/project_ws/src/auto_bot': PYTHONPATH=/home/anmol/project_ws/build/auto_bot/prefix_override:/home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/auto_bot build --build-base /home/anmol/project_ws/build/auto_bot/build install --record /home/anmol/project_ws/build/auto_bot/install.log --single-version-externally-managed
+[0.960s] running egg_info
+[0.961s] writing ../../build/auto_bot/auto_bot.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ../../build/auto_bot/auto_bot.egg-info/dependency_links.txt
+[0.961s] writing entry points to ../../build/auto_bot/auto_bot.egg-info/entry_points.txt
+[0.961s] writing requirements to ../../build/auto_bot/auto_bot.egg-info/requires.txt
+[0.961s] writing top-level names to ../../build/auto_bot/auto_bot.egg-info/top_level.txt
+[0.991s] reading manifest file '../../build/auto_bot/auto_bot.egg-info/SOURCES.txt'
+[0.992s] writing manifest file '../../build/auto_bot/auto_bot.egg-info/SOURCES.txt'
+[0.992s] running build
+[0.992s] running build_py
+[0.992s] copying auto_bot/bot_mapping.py -> /home/anmol/project_ws/build/auto_bot/build/lib/auto_bot
+[0.993s] running install
+[0.993s] running install_lib
+[0.994s] copying /home/anmol/project_ws/build/auto_bot/build/lib/auto_bot/bot_mapping.py -> /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot
+[0.995s] byte-compiling /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot/bot_mapping.py to bot_mapping.cpython-38.pyc
+[0.997s] running install_data
+[0.998s] running install_egg_info
+[1.000s] removing '/home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot-0.0.0-py3.8.egg-info' (and everything under it)
+[1.000s] Copying ../../build/auto_bot/auto_bot.egg-info to /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot-0.0.0-py3.8.egg-info
+[1.000s] running install_scripts
+[1.013s] Installing bot_localization script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+[1.014s] Installing bot_map script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+[1.014s] Installing configuration script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+[1.015s] Installing driving_auto_bot script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+[1.015s] Installing goal_auto_bot script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+[1.015s] Installing maze_solving script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+[1.015s] Installing utilities script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+[1.015s] Installing vid_saving script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+[1.015s] writing list of installed files to '/home/anmol/project_ws/build/auto_bot/install.log'
+[1.048s] Invoked command in '/home/anmol/project_ws/src/auto_bot' returned '0': PYTHONPATH=/home/anmol/project_ws/build/auto_bot/prefix_override:/home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/auto_bot build --build-base /home/anmol/project_ws/build/auto_bot/build install --record /home/anmol/project_ws/build/auto_bot/install.log --single-version-externally-managed

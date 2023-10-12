@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/auto_bot/auto_bot.egg-info/PKG-INFO
+writing dependency_links to ../../build/auto_bot/auto_bot.egg-info/dependency_links.txt
+writing entry points to ../../build/auto_bot/auto_bot.egg-info/entry_points.txt
+writing requirements to ../../build/auto_bot/auto_bot.egg-info/requires.txt
+writing top-level names to ../../build/auto_bot/auto_bot.egg-info/top_level.txt
+reading manifest file '../../build/auto_bot/auto_bot.egg-info/SOURCES.txt'
+writing manifest file '../../build/auto_bot/auto_bot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying auto_bot/maze_solving.py -> /home/anmol/project_ws/build/auto_bot/build/lib/auto_bot
+copying auto_bot/bot_mapping.py -> /home/anmol/project_ws/build/auto_bot/build/lib/auto_bot
+running install
+running install_lib
+copying /home/anmol/project_ws/build/auto_bot/build/lib/auto_bot/maze_solving.py -> /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot
+copying /home/anmol/project_ws/build/auto_bot/build/lib/auto_bot/bot_mapping.py -> /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot
+byte-compiling /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot/maze_solving.py to maze_solving.cpython-38.pyc
+byte-compiling /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot/bot_mapping.py to bot_mapping.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/auto_bot/auto_bot.egg-info to /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot-0.0.0-py3.8.egg-info
+running install_scripts
+Installing bot_localization script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+Installing bot_map script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+Installing configuration script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+Installing driving_auto_bot script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+Installing goal_auto_bot script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+Installing maze_solving script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+Installing utilities script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+Installing vid_saving script to /home/anmol/project_ws/install/auto_bot/lib/auto_bot
+writing list of installed files to '/home/anmol/project_ws/build/auto_bot/install.log'
