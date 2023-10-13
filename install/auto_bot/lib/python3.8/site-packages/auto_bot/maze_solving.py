@@ -5,7 +5,7 @@ from rclpy.node import Node
 from cv_bridge import CvBridge
 from .auto_bot_localization import auto_bot_localizer
 from .bot_pathplanning import bot_pathplanner
-from .bot_motion_planning import bot_motionplaner
+from .bot_motion_planning import bot_motionplanner
 from .bot_mapping import bot_mapper
 from sensor_msgs.msg import Image
 from nav_msgs.msg import Odometry
@@ -35,7 +35,7 @@ class maze_solver(Node):
         self.sat_view=np.zeros((100,100))
         self.bot_mapper=bot_mapper()
         self.bot_pathplanner=bot_pathplanner()
-        self.bot_motion_planner=bot_motionplaner()
+        self.bot_motion_planner=bot_motionplanner()
         self.pose_subscriber=self.create_subscription(Odometry,'/odom',self.bot_motion_planner.get_pose,10)
         self.pose_subscriber
 

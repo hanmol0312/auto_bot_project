@@ -1,6 +1,6 @@
 [console_scripts]
 bot_localization = auto_bot.auto_bot_localization:main
-bot_map=auto_bot.bot_mapping:mainbot_path_planning = auto_bot.bot_pathplanning:main
+bot_map=auto_bot.bot_mapping:mainbot_path_planning=auto_bot.bot_pathplanning:mainbot_motion_plan = auto_bot.bot_motion_planning:main
 configuration = auto_bot.config:main
 driving_auto_bot = auto_bot.driver_node:main
 goal_auto_bot = auto_bot.reach_goal:main

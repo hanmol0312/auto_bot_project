@@ -40,7 +40,7 @@
 /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot-0.0.0-py3.8.egg-info/SOURCES.txt
 /home/anmol/project_ws/install/auto_bot/lib/python3.8/site-packages/auto_bot-0.0.0-py3.8.egg-info/dependency_links.txt
 /home/anmol/project_ws/install/auto_bot/lib/auto_bot/bot_localization
-/home/anmol/project_ws/install/auto_bot/lib/auto_bot/bot_map=auto_bot.bot_mapping:mainbot_path_planning
+/home/anmol/project_ws/install/auto_bot/lib/auto_bot/bot_map=auto_bot.bot_mapping:mainbot_path_planning=auto_bot.bot_pathplanning:mainbot_motion_plan
 /home/anmol/project_ws/install/auto_bot/lib/auto_bot/configuration
 /home/anmol/project_ws/install/auto_bot/lib/auto_bot/driving_auto_bot
 /home/anmol/project_ws/install/auto_bot/lib/auto_bot/goal_auto_bot

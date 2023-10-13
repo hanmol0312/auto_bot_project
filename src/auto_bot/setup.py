@@ -36,6 +36,7 @@ setup(
             'configuration=auto_bot.config:main',
             'bot_map=auto_bot.bot_mapping:main'
             'bot_path_planning=auto_bot.bot_pathplanning:main'
+            'bot_motion_plan=auto_bot.bot_motion_planning:main'
         ],
     },
     
